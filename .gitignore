@@ -1,0 +1,74 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Logs
+logs/
+*.log
+
+# Build output
+build/
+dist/
+public/assets/
+public/static/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# React
+/node_modules/
+/build/
+/.env
+/.env.local
+/.env.development
+/.env.test
+/.env.production
+/serviceWorker.js
+/src/setupProxy.js
+/src/setupTests.js
+.eslintcache
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional npm cache
+.npm/
+
+# Optional Yarn cache
+.yarn/
+
+# Miscellaneous
+*.lock
+*.bak
+*.tmp
+*.bak.*
+
+# MongoDB dump files
+*.bson
+*.json
+*.lock
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Coverage directory used by Jest
+/coverage/
+*.lcov
+
+# Debug output
+debug/
+*.pid
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+/.nyc_output
